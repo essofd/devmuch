@@ -1,5 +1,5 @@
 ﻿
-# [](https://github.com/essofd/devmuch) Delivery Much - Automação de Teste de Software
+# [](https://github.com/essofd/devmuch) Delivery Much - Automação de Teste de Software (API)
 
 Site Testado: Delivery Much: [Delivery Much](http://challengeqa.staging.devmuch.io/)
 
@@ -23,6 +23,11 @@ valor “Invalid data”;
 7. Para os casos válidos, resposta deve ter status 200.
 
 
+**Desafio**
+Fazer os testes automatizados para este serviço, considerando todas as regras de negócio
+descritas acima. Criá-los utilizando sua linguagem ou ferramenta de preferência. Após
+fazê-los, gerar um relatório de falhas e estatística de falhas/acerto.
+
 
 **Preparação do ambiente - Passo a Passo:**
  1. Baixe e instale o Eclipse;
@@ -37,15 +42,16 @@ valor “Invalid data”;
  10. Clique em "OK";
  11. Clique novamente no botão “Nova” em “Variáveis do sistema”;
  12. Digite no nome da variável: "MAVEN_HOME";
- 13. No valor da variável: coloque o endereço onde foi instalado. Exemplo: “C:\Program Files\Maven\apache-maven-3.6.3”;
+ 13. No valor da variável: coloque o endereço onde foi instalado. Exemplo: “C:\Program Files\Maven\apache-maven”;
  14. Clique em "OK";
  15. Selecione "Path" e clique em "Editar...";
  16. Clique em "Novo" e digite "%JAVA_HOME%\bin";
  17. Clique em "Novo" novamente e digite "%MAVEN_HOME%\bin" e depois clique em "OK"
  18. Clique em "OK" novamente para salvar as configurações;
  19. Para confirmar se foi configurado certo e a verificar a versão:
-            vá ao CMD(Prompt de comando) e digite: "java -version"
-            e após isto no CMD digite: "mvn -version"
+
+            vá ao CMD(Prompt de comando) e digite: "java -version" e clique em <ENTER>
+            e após isto no CMD digite: "mvn -version" e clique em <ENTER>
 
 **Executando o script - Passo a Passo:**
  1. Baixe o projeto e descompacte-o;
@@ -56,4 +62,4 @@ valor “Invalid data”;
  6. Após, clique em "src/test/java";
  7. Clique no pacote "api.testSuite" e com o botão direito sobre o "apiSuiteTest.java" e selecione "Run As" e após "JUnit Test";
  8. Espere o caso de teste ser executado;
- 9. Ao terminar acesse a pasta do projeto "api-deliverymuch" e clique para abrir os relatórios: "ResultadoIngles.html" e "ResultadoPortugues.html" no navegador web onde você poderá verificar o resultado gerado.
+ 9. Ao terminar acesse a pasta do projeto "api-deliverymuch" e clique para abrir os relatórios: "ResultadosIngles.html" e "ResultadosPortugues.html" no navegador web onde você poderá verificar o resultado gerado.
