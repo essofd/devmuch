@@ -23,7 +23,8 @@ valor “Invalid data”;
 7. Para os casos válidos, resposta deve ter status 200.
 
 
-**Desafio**
+**Desafio:**
+
 Fazer os testes automatizados para este serviço, considerando todas as regras de negócio
 descritas acima. Criá-los utilizando sua linguagem ou ferramenta de preferência. Após
 fazê-los, gerar um relatório de falhas e estatística de falhas/acerto.
